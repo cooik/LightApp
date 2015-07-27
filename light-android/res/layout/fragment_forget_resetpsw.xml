@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/regist_page_bg"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="50dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请重设密码，长度至少为6个字符"
+        android:textColor="@color/rc_text_color_primary" />
+
+    <EditText
+        android:id="@+id/new_psw"
+        style="@style/edittext_style"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/re_psw"
+        style="@style/edittext_style"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/regist_button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:text="继续"
+        android:textColor="@color/text_wite_color" />
+
+    <Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="@dimen/regist_button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape2"
+        android:text="取消"
+        android:textColor="@color/text_wite_color" />
+
+</LinearLayout>

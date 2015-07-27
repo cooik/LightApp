@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/regist_page_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入手机号:" />
+
+        <EditText
+            android:id="@+id/et_phone_num"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginTop="10dp"
+            style="@style/edittext_style"
+            android:inputType="phone">
+            <requestFocus />
+            </EditText>
+
+        <Button
+            android:id="@+id/btn_phone_regist"
+            android:layout_width="@dimen/regist_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:text="继续"
+            android:textColor="@color/text_wite_color" />
+
+        <Button
+            android:id="@+id/btn_email_regist"
+            android:layout_width="@dimen/regist_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape2"
+            android:text="使用电子邮箱注册"
+            android:textColor="@color/text_wite_color" />
+
+        <include layout="@layout/regist_tip_show"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_email_valid_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/regist_page_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:text="请输入验证码:" />
+
+    <EditText
+        android:id="@+id/et_validcode"
+        android:layout_width="match_parent"
+        style="@style/edittext_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_edittext"
+        android:layout_marginTop="10dp"
+        android:inputType="numberSigned">
+        <requestFocus />
+        </EditText>
+
+    <Button
+        android:id="@+id/btn_valid"
+        android:layout_width="@dimen/regist_button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="@color/regist_button_bg_1"
+        android:text="继续"
+        android:textColor="@color/text_wite_color" />
+
+</LinearLayout>

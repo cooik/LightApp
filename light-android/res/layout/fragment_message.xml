@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TabHost必须包含一个 TabWidget和一个FrameLayout -->
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/regist_page_bg"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- TabWidget的id属性必须为 @android:id/tabs -->
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+        <!-- FrameLayout的id属性必须为 @android:id/tabcontent -->
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/ll_view1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                >
+                <include
+                    android:id="@+id/layout_common_npcs"
+                    layout="@layout/common_chat_layout"
+                    />
+                
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    />
+
+            </LinearLayout>
+	
+            <include
+                android:id="@+id/friends_layout"
+                layout="@layout/activity_friends"
+                />
+
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

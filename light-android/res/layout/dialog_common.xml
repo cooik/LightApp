@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dialog_margin"
+    android:orientation="vertical" >
+
+    <com.light.dialog.DialogTitleView
+        android:id="@+id/dialog_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/content_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/global_dialog_padding" />
+    
+    <LinearLayout
+        android:id="@+id/layout_no_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="10dip"
+         >
+
+        <ImageView
+            android:id="@+id/iv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:src="@drawable/blacklist_check_box" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="@string/no_prompt" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/button_bar_divider"
+        style="@style/section_item_divider"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/button_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/negative_bt"
+            style="@style/dialog_button"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/button_divder"
+            style="@style/section_item_divider_vertical"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/positive_bt"
+            style="@style/dialog_button"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

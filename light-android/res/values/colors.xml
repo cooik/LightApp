@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tab_default">#929292</color>
+    <color name="tab_delected">#0177bd</color>
+    <color name="divide_line">#d6d6d6 </color>
+    <color name="bg_tabs">#f7f7f7</color>
+    <color name="text_wite_color">#ffffff</color>
+    <color name="regist_button_bg_1">#0089A7</color>
+    <color name="regist_button_bg_2">#CDD3D4</color>
+    <color name="text_color_2">#57A1B3</color>
+    <color name="text_color_black">#000000</color>
+    <color name="text_color_orange">#F7B68A</color>
+    <color name="regist_page_bg">#F0F0F2</color>
+    <color name="login_bg_click">#bfcffd</color>
+    <color name="green">#45C018</color>
+    <color name="list_divider_color">#DADADA</color>
+    <color name="white">#ffffff</color>
+    <color name="no_color">#00000000</color>
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+    <color name="love_color_1">#808080</color>
+    <color name="love_color_2">#ffffff</color>
+    <color name="grey">#E5E5E5</color>
+
+    <!-- 菜单layout item颜色 -->
+    <color name="menu_layout_default">#b2b2b2</color>
+    <color name="menu_layout_item_pressed_color">#323232</color>
+    
+    <color name="text_dark">#af000000</color>
+    <color name="text_light">#3f000000</color>
+    <color name="light_gray">#1a000000</color>
+    <color name="lightest_gray">#0a000000</color>
+    
+    <!-- 常用颜色值 -->
+    <color name="white40">#40FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+    
+    <color name="bg_touch">@color/lightest_gray</color>
+    
+    <color name="ui_dialog_divider">@color/list_divider_color</color>
+    <color name="ui_dialog_list_text">#5E5E5E</color>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/text_wite_color"
+     >
+    
+    
+    <com.light.widget.RoundImageView
+        android:id="@+id/iv_expert_avatar"
+        android:layout_width="62dip"
+        android:layout_height="62dip"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_launcher"
+        android:clickable="true" /> 
+        
+    <TextView
+        android:id="@+id/tv_expert_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="立专家"
+        android:layout_toRightOf="@id/iv_expert_avatar"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="10dip"
+        />
+    
+    <TextView
+        android:id="@+id/tv_expert_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="国际顶尖的交党费辣椒等法律肯定是经费卢卡斯积分路口见善良劫匪洛杉矶的路口附近阿隆索解放路"
+        android:layout_toRightOf="@id/iv_expert_avatar"
+        android:layout_marginLeft="20dip"
+        android:layout_below="@id/tv_expert_name"
+        android:layout_marginTop="10dip"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginRight="20dip"
+        />
+
+</RelativeLayout>

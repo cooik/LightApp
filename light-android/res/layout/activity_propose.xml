@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="来Light求婚的3大理由"
+                android:textColor="@color/text_color_black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="理由1"
+                android:textColor="@color/text_color_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text=" 接受LIGHT所有成员的祝福和监督，对爱人是一个承诺。"
+                android:textColor="@color/text_color_black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="理由2"
+                android:textColor="@color/text_color_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Light 将为你提供认证相关的线上线下服务。如后续对接海外婚姻服，或国内小型线下婚礼.Light 可为你定制结婚证书，可放在钱包，驾照，挂在家里。定制戒指，创意摄影，还有更多你想象不到的惊喜！"
+                android:textColor="@color/text_color_black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="理由3"
+                android:textColor="@color/text_color_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="提供来自全球LGBT组织、教会、团体的支持和祝福。你将能得到以下与light合作的国际组织的祝福："
+                android:textColor="@color/text_color_black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="结婚地点"
+                android:textColor="@color/text_color_2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="
+1. 台湾宏誓学院\n
+2.亚洲主教会议联合会( Fderation of Asian Bishops&apos; Conferences)\n
+3. 美国人权运动(Human rights campaign)\n
+4. 新教教派加拿大联合教会\n
+5. 美国达拉斯市 希望大教堂\n
+6. 美国普世大都会社区教会团契(TheUni-versalFellowshipofMetropolitanCommu-nityChurches)\n
+7. 新西兰奥克兰教堂\n
+8. 荷兰Parish of SS Peter and Paul &amp; HH Johannes en Willibrordus Saints John and Willibrord	Amsterdam, Netherlands	Old Catholic\n
+9. 荷兰Parish of St. Lawrence	Alkmaar, Netherlands	Old Catholic\n
+10. 荷兰Parish of St. George	Amersfoort, Netherlands	Old Catholic\n
+11. 日本春光寺\n
+12. 日本Fukijima Church	Ichikawa-shi, Japan	United Church of Christ in Japan\n
+13.日本Nagoya St. John&apos;s Church	Nagoya-shi, Japan	Anglican\n
+14.日本San-itsu Church	Sagamihara-shi, Japan	United Church of Christ in Japan\n
+15.韩国Korean Rainbow Christian Fellowship	Seoul, South Korea	Non-denominational\n
+16.德国CONGREGATION	CITY	DENOMINATION(S)\n
+17.德国Zwischenraum	Basel, Germany	Non-denominational\n
+18.德国Ecumenical Service	Berlin, Germany	Ecumenical\n
+19.德国Evangelical Church of Martin Luther	Berlin, Germany	Lutheran\n
+20.德国Queer Christian Berlin	Berlin, Germany	Non-denominational\n
+21.德国St. Georges Anglican Church	Berlin, Germany	Anglican\n"
+                android:textColor="@color/text_color_black" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_layout_item_selector"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/MenuItemLayoutStyle" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/menu_item_username"
+            style="@style/MenuItemTextViewStyle"
+            android:text="姓名" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+    <LinearLayout
+        android:id="@+id/menu_item_id"
+        style="@style/MenuItemLayoutStyle" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="账户" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+    <LinearLayout
+        android:id="@+id/menu_item_settings"
+        style="@style/MenuItemLayoutStyle" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="设置" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+    <LinearLayout
+        android:id="@+id/menu_back"
+        style="@style/MenuItemLayoutStyle" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="反馈" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+    <LinearLayout
+        android:id="@+id/menu_about"
+        style="@style/MenuItemLayoutStyle" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            style="@style/MenuItemTextViewStyle"
+            android:text="关于" />
+    </LinearLayout>
+
+    <include layout="@layout/horizontal_divider_view" />
+
+</LinearLayout>

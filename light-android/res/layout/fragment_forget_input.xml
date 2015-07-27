@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/regist_page_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:text="请检查您的的电子邮件/手机号,以接受验证码，请输入验证码来重设密码"
+        android:textColor="@color/rc_text_color_primary" />
+
+    <EditText
+        android:id="@+id/vaild_code"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_edittext" />
+
+    <TextView
+        android:id="@+id/no_getcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vaild_code"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="true"
+        android:text="我没有收到验证码"
+        android:textColor="@color/regist_button_bg_1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/no_getcode"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/vaild"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_selector"
+            android:text="继续"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/cancle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_selector"
+            android:text="取消"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

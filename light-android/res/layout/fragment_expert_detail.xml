@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/regist_page_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.light.widget.RoundImageView
+                android:id="@+id/iv_expert_avatar"
+                android:layout_width="72dip"
+                android:layout_height="72dip"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/tv_expert_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dip"
+                android:text="专家"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dip"
+                android:text="关于"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:id="@+id/tv_expert_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dip"
+                android:text="专长"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:id="@+id/tv_expert_goodat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dip"
+                android:text="认证信息"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:id="@+id/tv_expert_auth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:textColor="@color/black" />
+            
+            <Button
+                android:id="@+id/btn_ask_expert"
+                android:layout_width="@dimen/regist_button_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dip"
+                android:background="@drawable/button_shape_orange"
+                android:text="向TA咨询"
+                android:textColor="@color/text_wite_color" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

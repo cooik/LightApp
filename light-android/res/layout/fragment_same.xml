@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/regist_page_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="心灵陪伴" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/black" />
+
+    <!--
+         <ListView
+        android:id="@+id/lv_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1px"
+        android:divider="@android:color/black"
+        />
+    -->
+
+    <RelativeLayout
+        android:id="@+id/layout_companyer"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:text="Light 陪伴师"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/black" />
+
+    <RelativeLayout
+        android:id="@+id/layout_psychological_counselor"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:text="Light 心理咨询师"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="命理" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/black" />
+
+    <RelativeLayout
+        android:id="@+id/layout_master"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:text="Light 大师"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/black" />
+    <!--
+         <ListView
+        android:id="@+id/lv_fate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1px"
+        android:divider="@android:color/black"
+        />
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="法务" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/black" />
+
+    <!--
+         <ListView
+        android:id="@+id/lv_law"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1px"
+        android:divider="@android:color/black"
+        />
+    -->
+
+    <RelativeLayout
+        android:id="@+id/layout_lawyer"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dip"
+            android:text="Light 律师"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dip"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+</LinearLayout>

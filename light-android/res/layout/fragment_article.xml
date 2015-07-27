@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swiperly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <ListView
+            android:id="@+id/lv_article"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:cacheColorHint="@color/no_color"
+            android:divider="#dcdcdc"
+            android:dividerHeight="1px"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:scrollingCache="true" >
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

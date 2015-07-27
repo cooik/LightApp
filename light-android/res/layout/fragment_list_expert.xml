@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_wite_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_layout" />
+    
+    <ListView
+        android:id="@+id/lv_experts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/regist_page_bg"
+        android:dividerHeight="2px"
+        />
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/regist_page_bg"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您的生理性别是:"
+        android:textColor="@color/text_color_orange"
+         />
+
+    <RadioGroup
+        android:id="@+id/rg_user_physiology_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:padding="5dp" >
+
+        <RadioButton
+            android:id="@+id/rb_physiology_gender_0"
+            style="@style/radio_button_gender"
+            android:background="@drawable/gender_0_selector"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rb_physiology_gender_1"
+            style="@style/radio_button_gender"
+            android:background="@drawable/gender_0_selector"/>
+
+        <RadioButton
+            android:id="@+id/rb_physiology_gender_2"
+            style="@style/radio_button_gender"
+            android:background="@drawable/gender_0_selector" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="您的社会性别是:"
+        android:textColor="@color/text_color_orange"
+         />
+
+    <RadioGroup
+        android:id="@+id/rg_user_society_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:padding="5dp" >
+
+        <RadioButton
+            android:id="@+id/rb_society_gender_0"
+            style="@style/radio_button_gender"
+           	android:background="@drawable/gender_0_selector"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rb_society_gender_1"
+            style="@style/radio_button_gender"
+            android:background="@drawable/gender_0_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_society_gender_2"
+            style="@style/radio_button_gender"
+            android:background="@drawable/gender_0_selector" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_info_submit"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/regist_button_width"
+        android:textColor="@color/text_wite_color"
+        android:background="@drawable/button_shape"
+        android:text="提交" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="您稍后可以更改设置"
+        />
+    
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_wite_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/search_content_bg" >
+
+        <ImageView
+            android:id="@+id/iv_search_logo"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/search_log" />
+
+        <EditText
+            android:id="@+id/et_search_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@id/iv_search_logo"
+            android:background="@color/text_wite_color"
+            android:hint="按手机号/邮箱/关键字查询"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColorHint="#d6d6d6" />
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swiperefreshlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <ListView
+            android:id="@+id/lv_show_friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/list_divider_color"
+            android:dividerHeight="1px"
+            android:scrollbars="none"
+            android:scrollingCache="true" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

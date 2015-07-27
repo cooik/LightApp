@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/regist_page_bg"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+     >
+     
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您的账户名称:"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/et_user_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPhonetic"
+        style="@style/edittext_style"
+        android:maxLength="32"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请创建密码:"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/et_user_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        style="@style/edittext_style"
+        android:maxLength="16"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入至少6个字符,包括字母和数字"
+        />
+    
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_height="wrap_content"
+        android:text="下一步"
+        android:layout_width="@dimen/regist_button_width"
+        android:textColor="@color/text_wite_color"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>
